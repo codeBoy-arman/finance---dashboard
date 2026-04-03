@@ -101,7 +101,8 @@ npm run dev
 
 ## 📷 Screenshots
 
-(Add screenshots here before submitting)
+<img width="900" height="730" alt="image" src="https://github.com/user-attachments/assets/12c6ba1e-ef66-4270-b185-c3f17f8ffddb" />
+
 
 ---
 

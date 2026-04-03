@@ -1,16 +1,117 @@
-# React + Vite
+# 💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This project is a clean and interactive **Finance Dashboard UI** built as part of a frontend assessment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It allows users to:
 
-## React Compiler
+* View financial summaries
+* Analyze spending patterns
+* Manage transactions
+* Gain useful financial insights
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The focus of this project is on **UI design, state management, and user experience**, rather than backend integration.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 📊 Dashboard Overview
+
+* Total Balance, Income, and Expenses cards
+* Spending trend (Line Chart)
+* Expense breakdown by category (Pie Chart)
+
+### 📋 Transactions
+
+* List of transactions with:
+
+  * Date
+  * Amount
+  * Category
+  * Type (Income/Expense)
+* 🔍 Search functionality
+* 🎯 Filter by type (Income/Expense)
+
+### 🔐 Role-Based UI
+
+* Viewer → Read-only access
+* Admin → Can add transactions
+* Role switcher for demo
+
+### ➕ Add Transaction
+
+* Modal form for adding new transactions
+* Updates UI instantly
+
+### 📊 Insights Section
+
+* Highest spending category
+* Income vs Expense summary
+* Monthly comparison insights
+* Smart messages like:
+
+  * “Expenses increased by 12% this month”
+  * “You saved ₹1200 this period”
+
+### 💾 Persistence
+
+* Data stored in **localStorage**
+* Simulates real app behavior
+
+---
+
+## 🛠️ Tech Stack
+
+* **React (Vite)**
+* **Redux Toolkit** (state management)
+* **Tailwind CSS** (UI styling)
+* **Recharts** (charts)
+
+---
+
+## 🧠 Approach
+
+* Used **Redux Toolkit** for scalable state management
+* Kept filters local to components for simplicity
+* Used **mock data + localStorage** instead of backend
+* Focused on **clean UI, UX, and meaningful insights**
+
+---
+
+## 🎨 UI/UX Highlights
+
+* Modern dark theme with gradients
+* Glassmorphism design
+* Responsive layout
+* Smooth hover interactions
+* Clean typography and spacing
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📷 Screenshots
+
+(Add screenshots here before submitting)
+
+---
+
+## 📌 Notes
+
+* This project uses mock data as backend integration was not required
+* Designed to demonstrate frontend architecture and UI thinking
+
+---
+
+## 🙌 Author
+
+Arman Khan
